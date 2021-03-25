@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600&display=swap");
-
+html {
+  box-sizing: border-box;
+}
 body {
   background: rgba(47, 52, 58, 0.712);
 }
 nav.fixed-top {
   background: #fff;
   z-index: 1040;
-  padding-top: 2px; 
+  padding-top: 2px;
 }
 #header {
   background: #fff;
@@ -14,14 +16,14 @@ nav.fixed-top {
   padding-bottom: 0px;
   height: 80px;
 }
-nav.fixed-top .logo a img{
+nav.fixed-top .logo a img {
   margin-top: 7px;
 }
 .logo a img {
   width: 200px;
   height: 54px;
   margin-left: 20px;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 .header_body {
   display: flex;
@@ -103,7 +105,7 @@ nav.fixed-top .logo a img{
 }
 .setting {
   position: absolute;
-  margin-top: 10px;
+  top: 6px;
   margin-left: 76px;
   right: 10px;
 }
@@ -354,8 +356,8 @@ nav.fixed-top .logo a img{
   display: none;
 }
 .chat_list {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 .right_body .chat_list {
 }
@@ -395,23 +397,22 @@ nav.fixed-top .logo a img{
   text-align: center;
   position: relative;
 }
-.single_page::before{
-position:absolute ;
-left: 0;
-height: 24px;
-width: 2px;
-background: #d4d9e6d0;
-content: "";
-
+.single_page::before {
+  position: absolute;
+  left: 0;
+  height: 24px;
+  width: 2px;
+  background: #d4d9e6d0;
+  content: "";
 }
 .single_page i {
   font-size: 20px;
   color: #d4d9e6d0;
 }
-.single_page a:hover i{
+.single_page a:hover i {
   color: rgb(11, 206, 70);
 }
-.owl-theme .owl-nav [class*="owl-"] span{
+.owl-theme .owl-nav [class*="owl-"] span {
   color: #fff;
   font-size: 20px;
 }
@@ -425,6 +426,6 @@ content: "";
   right: 0;
   top: 10px;
 }
-.owl-carousel .owl-nav button:focus{
-  outline:none ;
+.owl-carousel .owl-nav button:focus {
+  outline: none;
 }

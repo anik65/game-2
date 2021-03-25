@@ -189,10 +189,8 @@
 
                     </div>
                     <div class="single_page">
-                        <a href=""> <i class="fab fa-steam-symbol"></i></a>
-
-                    </div>
-
+                        <a href=""> <i class="fab fa-steam-symbol"></i></a> 
+                    </div>  
                 </div>
             </div>
             <div class="right_body">
@@ -206,7 +204,13 @@
                             <a href=""> <canvas class="polyavatar" width="50" height="50"></canvas> </a>
                         </div>
                         <div class="side_item">
+                            <a href=""> <canvas class="polyavatar-2" width="50" height="50"></canvas> </a>
+                        </div>
+                        <div class="side_item">
                             <a href=""> <canvas class="polyavatar" width="50" height="50"></canvas> </a>
+                        </div>
+                        <div class="side_item">
+                            <a href=""> <canvas class="polyavatar-2" width="50" height="50"></canvas> </a>
                         </div>
                         <div class="side_item">
                             <a href=""> <canvas class="polyavatar" width="50" height="50"></canvas> </a>
@@ -215,13 +219,7 @@
                             <a href=""> <canvas class="polyavatar" width="50" height="50"></canvas> </a>
                         </div>
                         <div class="side_item">
-                            <a href=""> <canvas class="polyavatar" width="50" height="50"></canvas> </a>
-                        </div>
-                        <div class="side_item">
-                            <a href=""> <canvas class="polyavatar" width="50" height="50"></canvas> </a>
-                        </div>
-                        <div class="side_item">
-                            <a href=""> <canvas class="polyavatar" width="50" height="50"></canvas> </a>
+                            <a href=""> <canvas class="polyavatar-2" width="50" height="50"></canvas> </a>
                         </div>
                     </div>
                 </div>
@@ -253,9 +251,12 @@
         var newInstance = new PolygonAvatar({
             selector: '.polyavatar',
             image: 'assets/img/man.jpg',
-            progressBarColor: '#1d2333c#1d2333',
+            progressBarColor: '#4ff461',
+            borderColor:'#1d2333',
             percentage: '.80',
             online: true,
+            onlineColor:"#16f54a",
+            offlineColor:'#fc1735',
 
         });
         var newInstance = new PolygonAvatar({
@@ -263,14 +264,17 @@
             image: 'assets/img/man.jpg',
             percentage: '.80',
             online: false,
-            progressBarColor: '#1d2333',
+            progressBarColor: '#4ff461',
+           
+            offlineColor:'#fc1735',
+
         });
         var newInstance = new PolygonAvatar({
             selector: '.polyavatar-4',
             image: 'assets/img/man.jpg',
             percentage: '.80',
             online: false,
-            progressBarColor: '#1d2333',
+            progressBarColor: '#4ff461',
 
         })
     </script>
