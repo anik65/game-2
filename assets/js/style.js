@@ -18,4 +18,5 @@ $('.page_nav').owlCarousel({
     margin: 1,
     nav: true,
     dots: false,
-})
+});
+$('.circlechart').circlechart()
